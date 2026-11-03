@@ -1,0 +1,44 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyInstaller
+build/
+dist/
+*.spec
+!GestorTUU.spec
+
+# Instaladores generados
+instaladores/
+Output/
+
+# Archivos Excel y datos de trabajo
+data/
+*.xlsx
+*.xls
+*.xlsm
+~$*
+
+# Configuracion local
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
